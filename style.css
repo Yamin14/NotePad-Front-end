@@ -1,0 +1,82 @@
+
+#options, form p {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	font-size: 2rem; 
+}
+
+form p, label {
+	font-size: 1.2rem;
+}
+
+#fonts {
+	font-family: "Arial";
+	width: 7rem;
+}
+
+#fontSizes {
+	font-size: 0.8rem;
+	border-radius: 3px;
+	margin-right: 0.3rem;
+}
+
+form label {
+		margin-right: 0.2rem;
+}
+
+form textarea {
+	margin-top: 1rem;
+	font-family: Arial;
+	font-size: 11px;
+	height: 80vh;
+}
+
+input[type="range"] {
+	height: 2px;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0rem;
+	width: 100%;
+	font-size: 1.4rem;
+}
+
+footer p {
+	display: inline;
+}
+
+b, i, u {
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+	form p, label {
+		font-size: 0.8rem;
+		margin: 0.8rem;
+	}
+
+	#options {
+		font-size: 0.9rem;
+		margin: 0.8rem;
+	}
+
+	form textarea {
+		height: 70vh;
+	}
+}
+
+
+
+
+
+
+
+
+
